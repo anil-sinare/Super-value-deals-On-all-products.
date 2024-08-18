@@ -1,0 +1,505 @@
+@media (max-width:750px) {
+    
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: fixed;
+        right: -300px;
+        top: 0px;
+        width: 300px;
+        height: 100vh;
+        background-color: #e3e6f3;
+        padding: 80px 0 0 10px;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        
+    }
+    .navbar ul.active{
+        right:0px;
+    }
+     
+    .navbar ul li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #mobile i{
+        padding-left: 20px;
+        font-size: 1em;
+        color: #1a1a1a;
+    }
+    .navbar ul .cross{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        font-size: 1em;
+    }
+    .cross i{
+        display: flex;
+    }
+    .lgclass{
+        display: none;
+    }
+    #hero{
+      
+        background-position: top 30% right 30%;
+        height: 70vh;
+        padding: 0 80px;
+      
+        
+    }
+    #feature{
+        padding: 40px 40px;
+        justify-content: center;
+    }
+    #feature .fe-box{
+       
+        margin: 15px 15px;
+    }
+    #fe-product{
+        padding: 20px 40px;
+        align-items: center;
+    }
+    #banner{
+     
+        height: 20vh;
+     
+      
+    }
+    #banner h4{
+        font-size: 1em;
+        font-weight: 700;
+        opacity: 0.9;
+       
+        
+}
+#banner h2{
+    font-size: 1.5em;
+    
+}
+
+#banner button{
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 600;
+   
+}
+#two-ban{
+   
+    padding: 10px 40px;
+  
+}
+#two-ban .left-ban{
+     margin: 0;
+     min-width: 100%;
+    height: 40vh;
+  }
+
+.right-ban {
+   margin: 0;
+    min-width:100%;
+    height: 40vh;
+   
+    
+}
+
+
+ .form{
+       margin-top: 15px;
+        width: 70%;
+    }
+    #foot{
+       
+        padding: 40px 40px;
+      
+    
+    }
+    #three-ban{
+           
+        padding: 20px 40px;
+        
+     
+    }
+    #sproducta{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 20px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    #blog{
+        padding: 50px 50px 0 50px;
+    }
+   
+    .blog-img{
+        width: 50%;
+        margin-right: 40px;
+    }
+    
+     img{
+         width: 100%;
+         max-height: 300px;
+        object-fit: cover;
+    }
+    
+    .blog-detail {
+       width: 50%;
+    
+    }
+    .blog-detail h4{
+    font-size: 1em;
+   }
+    .blog-detail p{
+        font-size: 0.9em;
+        margin: 8px 0;
+       
+        }
+    .blog-box h1{
+       top: -50px;
+         }
+    
+         #about{
+           padding: 40px 40px;
+               }
+               #about img{
+                width: 60%;
+              
+            }
+            .aboutinfo{
+                padding-left: 30px;
+            }
+            .aboutinfo {
+                max-width: 50%;
+            }
+        
+           
+            #about .aboutinfo p{
+                padding: 10px 0;
+                line-height: 1.2;
+               
+            }
+        
+            #aboutapp {
+               padding: 40px 40px;
+            }
+            .contact-detal{
+              
+                padding: 40px 40px;
+             }
+             .contact-left{
+                width: 70%;
+             }
+             
+             .contact-left h2,.up h2{
+                  font-size: 1.5em; 
+                 padding: 15px 0;
+                 
+             }
+            
+           .contact-right{
+           width: 70%;  
+           margin-left: 20px;
+           }
+           .contact-right iframe{
+            height: 40vh;
+           }
+            .contact-form{
+                padding: 40px 40px;
+                margin: 5px;
+              }
+              
+            .up input{
+                  padding: 8px 15px;
+                  margin: 10px 0;
+              }
+              .up button{
+                  padding: 12px 24px;
+                  font-size: 0.9em;
+              }
+             
+            .inframe img{
+                  height: 50px;
+                  width: 50px;
+              }
+              .framem{
+                  margin: 40px 0px 0 40px;
+              }
+             
+             
+   
+}
+@media (max-width:600px){
+    #about{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 20px;
+            }
+            #about img{
+             width: 80%;
+           
+         }
+         .aboutinfo{
+             padding-left: 30px;
+         }
+         .aboutinfo {
+             max-width: 80%;
+         }
+     
+           #aboutapp {
+            text-align: center;
+            padding: 40px 20px;
+         }
+         .contact-detal{
+            display: flex;
+           flex-direction: column;
+            padding: 40px 30px;
+         }
+         .contact-left{ 
+            width: 50%;
+         }
+         .contact-right{
+            width: 90%;
+            margin-left: 20px;
+            }
+            .up{
+                display: flex;
+              flex-direction: column;
+              
+            } 
+            .upform{
+                display: flex;
+                flex-direction: column;
+                width:80%;
+                
+              
+            }       
+}
+
+@media (max-width:477px){
+    #header{
+        padding: 10px 30px;
+    }
+    #hero{
+      
+        background-position: 55%;
+        height: 70vh;
+        padding: 0 20px;
+      
+        
+    }
+    #hero h2{
+        padding-bottom: 8px;
+        font-size: 1.7em;
+        
+    }
+    #hero h1{
+        padding-bottom: 10px;
+        font-size:2.5em;
+      
+    }
+    #hero h4{
+        padding-bottom: 10px;
+        font-size: 1.3em;
+        
+    }
+        
+    #feature{
+        padding: 20px 20px;
+        justify-content: space-between;
+      
+    }
+    #feature .fe-box{
+       width: 155px;
+        margin: 0 0 15px 0;
+    }
+    .main-container{
+        width: 100%;
+      
+        }
+        #banner{
+          height: 40vh;
+          
+        }
+        #two-ban .left-ban{
+            margin-bottom: 10px 0 0 0;
+           height: 40vh;
+         }
+         #three-ban{
+           
+            padding: 20px 20px;
+            
+         
+        }
+        #newsletter{
+          padding: 40px 20px;
+        }
+        .form{
+            margin-top: 15px;
+             width: 100%;
+         }
+         #sproducta{
+            display: flex;
+            padding: 20px 20px;
+        
+        }
+        .sproductb{
+            width: 100%;
+            margin-right: 0px;
+        }
+        
+        .sproductc{
+            width: 100%;
+           
+        }
+        #pagination a{
+            background-color: #088178;
+            padding: 10px 16px;
+            color: #fff;
+            font-weight: 600;
+            margin-left: 10px;
+            border-radius: 4px;
+        
+        }
+        #three-ban{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            justify-content: center;
+         
+            
+         
+        }
+        #feature{
+            padding: 20px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            justify-content: center;
+            flex-wrap: wrap;
+        }  
+        #blog{
+            padding: 50px 20px 0 20px;
+        }
+        .blog-box{
+            display: flex;
+            flex-direction: column;
+         align-items: flex-start;
+           justify-content: space-between;
+           position: relative;
+         padding-bottom: 100px;
+        }
+        .blog-box h1{
+            position:absolute ;
+            top: -40px;
+            left: 0;
+            font-size: 50px;
+            font-weight: 600;
+            color: #c9cbce;
+            z-index: -9;
+        }
+        .blog-img{
+            width: 100%;
+            margin-right: 40px;
+        }
+        
+         img{
+             width: 100%;
+             max-height: 300px;
+            object-fit: cover;
+        }
+        
+        .blog-detail {
+           width: 90%;
+        
+        }
+        .blog-detail h4{
+        font-size: 1.2em;
+        font-weight: bold;
+        padding-bottom: 10px;
+        }
+        .blog-detail p{
+            max-width: 500px;
+            font-size: 0.9em;
+            font-weight: 600;
+            padding: 4px 0;
+            opacity: 0.5;
+        padding-bottom: 10px;
+            }
+            .blog-detail a{
+               font-size: 0.8em;
+             }
+           .blog-detail a:hover{
+              font-size: 0.9em;
+              }
+    
+              #about{
+                display: flex;
+                flex-direction: column;
+                padding: 40px 10px;
+                    }
+                    #about img{
+                     width: 90%;
+                   
+                 }
+                 .aboutinfo{
+                     padding-left: 30px;
+                 }
+                 .aboutinfo {
+                     max-width: 90%;
+                 }
+             
+                
+             
+             
+                 #aboutapp {
+                    text-align: center;
+                    padding: 40px 20px;
+                 }
+                 #about .aboutinfo h2{
+                 margin-top: 40px;
+                }
+                .contact-detal{
+                    display: flex;
+                  flex-direction: column;
+                    padding: 40px 10px;
+                 }
+                 .contact-left{
+                    width: 50%;
+                 }
+                 .contact-right{
+                    width: 70%;
+                  
+                    }
+                    .contact-left{
+                        width: 90%;
+                     }
+                     .contact-icn li p{
+                        margin-left: 20px;
+                        font-size: 0.9em;
+                        font-weight: 500;
+                      
+        }
+        .upform{
+            display: flex;
+            flex-direction: column;
+            width:100%;
+            
+          
+        }
+        .contact-form{
+            border: 2px solid rgb(166, 159, 159);
+            padding: 40px 15px;
+            margin: 15px;
+          }
+          .framem{
+            margin: 40px 0px 0 10px;
+        }
+    }
+
+      
